@@ -1,5 +1,5 @@
 # WAD Analyzer
-It's a diagnostic self-help utility to analyze Azure Cloud Service Guest VM logs and automatically provides you guidance to solve issues faster. The command-line tool has the capability of analyzing these application and azure related logs:
+It's a self-help diagnostic utility to analyze Azure Cloud Service Guest VM logs and automatically provides you guidance to solve issues faster. The command-line tool has the capability of analyzing these application and azure related logs:
 
 - IIS Logs
 - HTTPErr Logs
