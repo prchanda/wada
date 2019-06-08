@@ -66,7 +66,7 @@ For Guest OS Family 4 and above, simply RDP to the guest VM and run CollectGuest
 
 Using **`-c`** parameter you can turn ON/OFF the analyzers of a diagnostic engine. Press 'ESC' key or close the WADA Configurator window to save the settings.
 
-![WADA Configurator](https://github.com/prchanda/wada/blob/images/Configurator.PNG)
+![WADA Configurator](https://github.com/prchanda/wada/blob/images/Configurator.png)
 
 #### Why am I not getting any output from an analyzer in WAD Analyzer report even though it is enabled ?
 
