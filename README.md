@@ -105,4 +105,4 @@ _`System.Runtime.InteropServices.COMException (0x8007000D): Error parsing query:
 LogFile "D:\WAD Analyzer\GALogs\RuntimeAndAgent\WaAppAgent.000.log", Row number 7 [The data is invalid.]
 at MSUtil.LogQueryClassClass.ExecuteBatch(String szQuery, Object pObjectInputContext, Object pObjectOutputContext)`_
 
-You may typically encounter this error when the log file rows are huge in size and it exceeds the default allocated buffer size of Log Parser which is 0x00785111. You need to increase the value of registry key **CSVInMaxRowSize** in order to overcome this error. Refer [this](https://blogs.technet.microsoft.com/rmilne/2012/07/05/how-to-fix-log-parser-log-row-too-long/) article for more info rmation on this topic.
+You may typically encounter this error when the log file rows are huge in size and it exceeds the default allocated buffer size of Log Parser which is 0x00785111. You need to increase the value of registry key **CSVInMaxRowSize** in order to overcome this error. Refer [this](https://blogs.technet.microsoft.com/rmilne/2012/07/05/how-to-fix-log-parser-log-row-too-long/) article for more information on this topic.
