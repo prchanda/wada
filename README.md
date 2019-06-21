@@ -26,6 +26,11 @@ Apart from analyzing cloud service application and runtime issues, this command-
 
 ![FilterSearch](https://github.com/prchanda/wada/blob/images/FilterData.png)
 
+#### Prerequisites
+
+- .NET Framework 4.7.2 must be installed in the system.
+- Internet connectivity should be there in the system for CSS and JS functionality.
+
 ### How to use WAD Analyzer?
 ----------------------------
 
