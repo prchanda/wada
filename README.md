@@ -30,6 +30,7 @@ Apart from analyzing cloud service application and runtime issues, this command-
 
 - .NET Framework 4.7.2 must be installed in the system.
 - Internet connectivity should be there in the system for CSS and JS functionality.
+- Minimum 2 GB RAM.
 
 ### How to use WAD Analyzer?
 ----------------------------
@@ -65,7 +66,7 @@ Analyze logs within a particular timeframe i.e from '2019-02-06 17:35:00' UTC to
 
 #### How do I collect the azure runtime and application related logs before even analyzing them using WAD Analyzer ?
 
-For Guest OS Family 4 and above, simply RDP to the guest VM and run CollectGuestLogs.exe, however in case of Guest OS family 2 and 3 you need to run SDP packages. Please refer [this](https://blogs.msdn.microsoft.com/kwill/2013/08/09/windows-azure-paas-compute-diagnostics-data/) MSDN blog for more info. You can also manually collect these logs from the compute nodes for analysis.
+For Guest OS Family 4 and above, simply RDP to the guest VM and run **CollectGuestLogs.exe**, however in case of Guest OS family 2 and 3 you need to run **SDP packages**. Please refer [this](https://blogs.msdn.microsoft.com/kwill/2013/08/09/windows-azure-paas-compute-diagnostics-data/) MSDN blog for more info. You can also manually collect these logs from the compute nodes for analysis.
 
 #### I want to analyze only IIS logs. How can I do that ?
 
